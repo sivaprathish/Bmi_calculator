@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fit_yoga"
+    tools:context=".calci">
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="533dp"
+        android:backgroundTint="#009688"
+        android:hint="Enter Your Age"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#121010"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/H"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="421dp"
+        android:backgroundTint="#009688"
+        android:hint="Enter Your Height in Cm"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/W"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="#009688"
+        android:hint="Enter your Weight in Kg"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/H"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Calculate Your BMI"
+        android:textColor="#1C1B1B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
